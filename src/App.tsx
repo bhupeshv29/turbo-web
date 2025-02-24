@@ -5,7 +5,7 @@ function App() {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('npx create-turboquick-app my-app');
+    navigator.clipboard.writeText('npx create-turboquick-app');
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -42,7 +42,7 @@ function App() {
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-2 text-gray-400">
                 <Command className="w-4 h-4" />
-                <code>npx create-turboquick-app my-app</code>
+                <code>npx create-turboquick-app</code>
               </div>
               <button
                 onClick={handleCopy}
@@ -114,7 +114,7 @@ function App() {
                 Run the CLI command to create a new project. Replace "my-app" with your desired project name:
               </p>
               <div className="bg-gray-950 p-4 rounded-lg font-mono text-sm mb-2">
-                npx create-turboquick-app my-app
+                npx create-turboquick-app
               </div>
             </div>
 
@@ -134,7 +134,7 @@ function App() {
                 Start the development server:
               </p>
               <div className="bg-gray-950 p-4 rounded-lg font-mono text-sm mb-2">
-                npm run dev
+                pnpm run dev
               </div>
             </div>
           </div>
@@ -143,7 +143,7 @@ function App() {
 
       {/* Footer */}
       <footer className="container mx-auto px-4 py-8 text-center text-gray-400 border-t border-gray-800">
-        <p>Built with ❤️ by the TurboQuick team</p>
+        <p>Built with ❤️ by bhupesh</p>
       </footer>
     </div>
   );
