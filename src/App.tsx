@@ -119,12 +119,14 @@ function App() {
             </div>
 
             <div className="bg-gray-900 p-6 rounded-xl">
-              <h3 className="text-xl font-bold mb-4">2. Navigate to Your Project</h3>
+              <h3 className="text-xl font-bold mb-4">2. Give a Name to your project
+                 <br />
+                 Navigate to Your Project</h3>
               <p className="text-gray-400 mb-4">
                 Move into your project directory:
               </p>
               <div className="bg-gray-950 p-4 rounded-lg font-mono text-sm mb-2">
-                cd my-app
+                cd 'projectNamed'
               </div>
             </div>
 
